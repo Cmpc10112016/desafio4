@@ -44,7 +44,7 @@ class Container {
   deleteById(id) {
     const delteProduct= this.productos.find((producto)=>producto.id !==id);
     const filteredData= this.productos.filter((producto)=>producto.id !==id);
-    return true;
+    return this.productos= filteredData;
   }
 }
 

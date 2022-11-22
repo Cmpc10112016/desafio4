@@ -13,6 +13,3 @@ app.listen(PORT, () => {
   console.log(`Servidor corriendo en el puerto ${PORT}`);
 });
 
-server.on("error", (error) => {
-  console.log(`Error corriendo el servidor ${error}`);
-});

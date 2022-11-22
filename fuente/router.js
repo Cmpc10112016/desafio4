@@ -31,7 +31,7 @@ router.put("/api/productos/:id", (req, res) => {
 router.delete("/api/productos/:id", (req, res) => {
   const id = req.params.id;
   const product = container.deleteById(parseInt(id));
-  res.send(new Container);
+  res.send(product);
 });
 
 module.exports = router;
